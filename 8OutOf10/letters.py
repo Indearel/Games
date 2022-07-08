@@ -21,10 +21,10 @@ def letters_generator():
 
     random_vowel_kolme = random.choice(vowels_kolme)
 
-    #4 neljä vow
-    vowels_neljä = ["A", "Ą", "E", "Ę", "I", "O", "Ó", "U", "Y"]
+    #4 nelja vow
+    vowels_nelja = ["A", "Ą", "E", "Ę", "I", "O", "Ó", "U", "Y"]
 
-    random_vowel_neljä = random.choice(vowels_neljä)
+    random_vowel_nelja = random.choice(vowels_nelja)
 
     #5 viisi vow
     vowels_viisi = ["A", "Ą", "E", "Ę", "I", "O", "Ó", "U", "Y"]
@@ -36,10 +36,10 @@ def letters_generator():
 
     random_vowel_kuusi = random.choice(vowels_kuusi)
 
-    #7 seitsemän vow
-    vowels_seitsemän = ["A", "Ą", "E", "Ę", "I", "O", "Ó", "U", "Y"]
+    #7 seitseman vow
+    vowels_seitseman = ["A", "Ą", "E", "Ę", "I", "O", "Ó", "U", "Y"]
 
-    random_vowel_seitsemän = random.choice(vowels_seitsemän)
+    random_vowel_seitseman = random.choice(vowels_seitseman)
 
     #8 kahdeksan vow
     vowels_kahdeksan = ["A", "Ą", "E", "Ę", "I", "O", "Ó", "U", "Y"]
@@ -66,10 +66,10 @@ def letters_generator():
 
     random_consonants_kolme = random.choice(consonants_kolme)
 
-    #4 neljä con
-    consonants_neljä = ["B", "C", "Ć", "D", "F", "G", "H", "J", "K", "L", "Ł", "M", "N", "Ń", "P", "R", "S", "Ś", "T", "W", "Z", "Ź", "Ż"]
+    #4 nelja con
+    consonants_nelja = ["B", "C", "Ć", "D", "F", "G", "H", "J", "K", "L", "Ł", "M", "N", "Ń", "P", "R", "S", "Ś", "T", "W", "Z", "Ź", "Ż"]
 
-    random_consonants_neljä = random.choice(consonants_neljä)
+    random_consonants_nelja = random.choice(consonants_nelja)
 
     #5 viisi con
     consonants_viisi = ["B", "C", "Ć", "D", "F", "G", "H", "J", "K", "L", "Ł", "M", "N", "Ń", "P", "R", "S", "Ś", "T", "W", "Z", "Ź", "Ż"]
@@ -82,9 +82,9 @@ def letters_generator():
     random_consonants_kuusi = random.choice(consonants_kuusi)
 
     #7 seitseman con
-    consonants_seitsemän = ["B", "C", "Ć", "D", "F", "G", "H", "J", "K", "L", "Ł", "M", "N", "Ń", "P", "R", "S", "Ś", "T", "W", "Z", "Ź", "Ż"]
+    consonants_seitseman = ["B", "C", "Ć", "D", "F", "G", "H", "J", "K", "L", "Ł", "M", "N", "Ń", "P", "R", "S", "Ś", "T", "W", "Z", "Ź", "Ż"]
 
-    random_consonants_seitsemän = random.choice(consonants_seitsemän)
+    random_consonants_seitseman = random.choice(consonants_seitseman)
 
     #8 kahdeksan con
     consonants_kahdeksan = ["B", "C", "Ć", "D", "F", "G", "H", "J", "K", "L", "Ł", "M", "N", "Ń", "P", "R", "S", "Ś", "T", "W", "Z", "Ź", "Ż"]
@@ -128,13 +128,13 @@ def letters_generator():
         print(random_consonants_kolme)
 
     #4 neljä
-    letter_choice_neljä = input('and then ? \n')
+    letter_choice_nelja = input('and then ? \n')
 
-    if letter_choice_neljä == "vow":
-        print(random_vowel_neljä)
+    if letter_choice_nelja == "vow":
+        print(random_vowel_nelja)
 
-    elif letter_choice_neljä == "con":
-        print(random_consonants_neljä)
+    elif letter_choice_nelja == "con":
+        print(random_consonants_nelja)
 
     #5 viisi
     letter_choice_viisi = input('and then ? \n')
@@ -142,7 +142,7 @@ def letters_generator():
     if letter_choice_viisi == "vow":
         print(random_vowel_viisi)
 
-    elif letter_choice_neljä == "con":
+    elif letter_choice_viisi == "con":
         print(random_consonants_viisi)
 
     #6 kuusi
@@ -155,13 +155,13 @@ def letters_generator():
         print(random_consonants_kuusi)
 
     #7 seitseman
-    letter_choice_seitsemän = input('and then ? \n')
+    letter_choice_seitseman = input('and then ? \n')
 
-    if letter_choice_seitsemän == "vow":
-        print(random_vowel_seitsemän)
+    if letter_choice_seitseman == "vow":
+        print(random_vowel_seitseman)
 
-    elif letter_choice_seitsemän == "con":
-        print(random_consonants_seitsemän)
+    elif letter_choice_seitseman == "con":
+        print(random_consonants_seitseman)
 
     #8 kahdeksan
     letter_choice_kahdeksan = input('and then ? \n')
