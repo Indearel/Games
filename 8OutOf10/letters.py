@@ -92,82 +92,82 @@ def letters_generator():
     random_consonants_kahdeksan = random.choice(consonants_kahdeksan)
 
     #0 nolla
-    letter_choice_nolla = input('Hello, what would you like to choose, "vow" - vowel, "con" - consonants ? \n')
+    letter_choice_nolla = input('Hello, what would you like to choose, "v" - vowel, "c" - consonants ? \n')
 
-    if letter_choice_nolla == "vow":
+    if letter_choice_nolla == "v":
         print(random_vowel_nolla)
 
-    elif letter_choice_nolla == "con":
+    elif letter_choice_nolla == "c":
         print(random_consonants_nolla)
 
     #1 yksi
     letter_choice_yksi = input('and then ? \n')
 
-    if letter_choice_yksi == "vow":
+    if letter_choice_yksi == "v":
         print(random_vowel_yksi)
 
-    elif letter_choice_yksi == "con":
+    elif letter_choice_yksi == "c":
         print(random_consonants_yksi)
 
     #2 kaksi
     letter_choice_kaksi = input('and then ? \n')
 
-    if letter_choice_kaksi == "vow":
+    if letter_choice_kaksi == "v":
         print(random_vowel_kaksi)
 
-    elif letter_choice_kaksi == "con":
+    elif letter_choice_kaksi == "c":
         print(random_consonants_kaksi)
 
     #3 kolme
     letter_choice_kolme = input('and then ? \n')
 
-    if letter_choice_kolme == "vow":
+    if letter_choice_kolme == "v":
         print(random_vowel_kolme)
 
-    elif letter_choice_kolme == "con":
+    elif letter_choice_kolme == "c":
         print(random_consonants_kolme)
 
     #4 neljä
     letter_choice_nelja = input('and then ? \n')
 
-    if letter_choice_nelja == "vow":
+    if letter_choice_nelja == "v":
         print(random_vowel_nelja)
 
-    elif letter_choice_nelja == "con":
+    elif letter_choice_nelja == "c":
         print(random_consonants_nelja)
 
     #5 viisi
     letter_choice_viisi = input('and then ? \n')
 
-    if letter_choice_viisi == "vow":
+    if letter_choice_viisi == "v":
         print(random_vowel_viisi)
 
-    elif letter_choice_viisi == "con":
+    elif letter_choice_viisi == "c":
         print(random_consonants_viisi)
 
     #6 kuusi
     letter_choice_kuusi = input('and then ? \n')
 
-    if letter_choice_kuusi == "vow":
+    if letter_choice_kuusi == "v":
         print(random_vowel_kuusi)
 
-    elif letter_choice_kuusi == "con":
+    elif letter_choice_kuusi == "c":
         print(random_consonants_kuusi)
 
     #7 seitseman
     letter_choice_seitseman = input('and then ? \n')
 
-    if letter_choice_seitseman == "vow":
+    if letter_choice_seitseman == "v":
         print(random_vowel_seitseman)
 
-    elif letter_choice_seitseman == "con":
+    elif letter_choice_seitseman == "c":
         print(random_consonants_seitseman)
 
     #8 kahdeksan
     letter_choice_kahdeksan = input('and then ? \n')
 
-    if letter_choice_kahdeksan == "vow":
+    if letter_choice_kahdeksan == "v":
         print(random_vowel_kahdeksan)
 
-    elif letter_choice_kahdeksan == "con":
+    elif letter_choice_kahdeksan == "c":
         print(random_consonants_kahdeksan)
