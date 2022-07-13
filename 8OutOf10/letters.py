@@ -127,7 +127,7 @@ def letters_generator():
     elif letter_choice_kolme == "c":
         print(random_consonants_kolme)
 
-    #4 neljä
+    #4 nelja
     letter_choice_nelja = input('and then ? \n')
 
     if letter_choice_nelja == "v":
