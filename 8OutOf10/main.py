@@ -1,11 +1,13 @@
 import letters
 import numbers
 
+
 def main():
-   choice = input('What do we have today, "l" - letters, "n" - numbers\n')
-   if choice == "l":
-      letters.letters_generator()
-   elif choice == "n":
-      numbers.numbers_generator()
+    choice = input('What do we have today, "l" - letters, "n" - numbers\n')
+    if choice == "l":
+        letters.letters_generator()
+    elif choice == "n":
+        numbers.numbers_generator()
+
 
 main()
